@@ -23,7 +23,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "Viva Application",
-      image: require("./image/js.zonayed.me.png"),
+      image: require("./image/vivaProject.png"),
       description:
         "This application is designed to help you prepare for viva exams effectively. It allows you to set a large number of questions, organized by topic. Each day, you can simulate a viva by facing questions selected from the topics you've chosen.",
       demo:
@@ -45,7 +45,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "DevTop",
-      image: require("./image/devtop.jpg"),
+      image: require("./image/vivaProject.png"),
       description:
         "Cross-platform desktop tool for the developers, does some useful job and make life easy",
       demo: "https://zonayedpca.github.io/DevTop",
