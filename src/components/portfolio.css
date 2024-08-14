@@ -1,10 +1,11 @@
+
 .portfolio-area {
   position: relative;
 }
 
-.portfolios {
+/* .portfolios {
   padding-left: 100px;
-}
+} */
 
 .portfolio-nav {
   display: flex;
@@ -58,8 +59,12 @@
   margin-bottom: 15px;
 }
 
-.portfolio-items .portfolio-img {
+.portfolio-items  {
   position: relative;
+}
+.portfolio-img{
+  position: relative;
+  width: 100%;
 }
 
 .portfolio-items .portfolio .links {

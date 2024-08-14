@@ -25,12 +25,23 @@ export const portfolios = {
       name: "Viva Application",
       image: require("./image/vivaProject.png"),
       description:
-        "This application is designed to help you prepare for viva exams effectively. It allows you to set a large number of questions, organized by topic. Each day, you can simulate a viva by facing questions selected from the topics you've chosen.",
+        "This application is designed to help you prepare for viva exams effectively.Each day, you can simulate a viva by facing questions selected from the topics you've chosen.",
       demo:
         "https://github.com/MdImranHosen1/Exam-Application-NextJs-ExpressJs",
       source:
         "https://github.com/MdImranHosen1/Exam-Application-NextJs-ExpressJs",
       tools: ["ExpressJS", "NextJS", "MongooDB", "Tailwind CSS"],
+    },
+
+    {
+      type: "featured",
+      name: "DuaApp",
+      image: require("./image/duaAppProject.png"),
+      description:
+        "Cross-platform desktop tool for the developers, does some useful job and make life easy",
+      demo: "https://dua-next-js-node-js.vercel.app/",
+      source: "https://github.com/MdImranHosen1/Dua-next.js-node.js",
+      tools: ["NextJS", "Tailwind CSS"],
     },
     {
       type: "regular",
@@ -40,17 +51,25 @@ export const portfolios = {
       source: "https://github.com/MdImranHosen1/CS24-p2-BSMRSTU_Prefect_Number",
       tools: ["ExpressJS", "NextJS", "MongooDB", "Tailwind CSS"],
     },
+    {
+      type: "regular",
+      name: "Barcode Genarator",
+      description: "This application genarate barcode of PDF417 and code128.",
+      demo: "https://barcode-generator-two.vercel.app/",
+      source: "https://github.com/MdImranHosen1/BarcodeGenerator",
+      tools: ["ReactJS", "Tailwind CSS"],
+    },
   ],
   Others: [
     {
       type: "featured",
-      name: "DevTop",
-      image: require("./image/vivaProject.png"),
+      name: "DuaApp",
+      image: require("./image/duaAppProject.png"),
       description:
         "Cross-platform desktop tool for the developers, does some useful job and make life easy",
-      demo: "https://zonayedpca.github.io/DevTop",
-      source: "https://github.com/zonayedpca/DevTop",
-      tools: ["electron", "react"],
+      demo: "https://dua-next-js-node-js.vercel.app/",
+      source: "https://github.com/MdImranHosen1/Dua-next.js-node.js",
+      tools: ["NextJS", "Tailwind CSS"],
     },
   ],
 }
