@@ -54,7 +54,7 @@ const Button = ({
 
 Button.defaultProps = {
   title: "Button",
-  link: "https://zonayed.me",
+  link: "https://imran-me.vercel.app/",
   target: "",
   marginTop: 0,
   marginBottom: 0,

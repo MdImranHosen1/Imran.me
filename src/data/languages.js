@@ -19,9 +19,4 @@ export const languages = [
     text: "धन्यवाद",
     progress: 50,
   },
-  {
-    id: "Punjabi",
-    text: "ਧੰਨਵਾਦ",
-    progress: 20,
-  },
 ]

@@ -22,7 +22,7 @@ const Contact = () => {
                 mt="25px"
                 bgColor="#00cf5d"
                 color="#fff"
-                link="mailto:zonayedpca@gmail.com"
+                href="mailto:imranhosen.bsmrstu@gmail.com"
               />
             </div>
           </div>
@@ -31,7 +31,7 @@ const Contact = () => {
               <li>
                 <h5>Email</h5>
                 <p>
-                  imranhosen.bsmrstu@gmai.com <span>(Recommended)</span>
+                  imranhosen.bsmrstu@gmail.com <span>(Recommended)</span>
                 </p>
               </li>
               <li>
