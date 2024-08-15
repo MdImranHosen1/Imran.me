@@ -1,14 +1,13 @@
 export const skills = {
   ProblemSolving: [
     {
-      name: "Codeforces [Expart]",
+      name: "Codeforces[Expart-1610]",
       Solved: 1250,
-      Rating: 1610,
     },
     { name: "InterviewBit", Solved: 250 },
     {
       name: "LeetCode",
-      Solved: 130,
+      Solved: 150,
     },
     { name: "Beecrowd", Solved: 120 },
     {
