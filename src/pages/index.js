@@ -9,6 +9,8 @@ import {
   Contact,
 } from "../components"
 import { Layout, SEO } from "../components/common"
+import { Education } from "../components/Education"
+import { Achievement } from "../components/Achievement"
 
 const IndexPage = () => (
   <>
@@ -16,7 +18,9 @@ const IndexPage = () => (
       <SEO title="Md Imran Hosen" />
       <Intro />
       <About />
+      <Education />
       <Skill />
+      <Achievement />
       <LoveToDo />
       <Portfolio />
       <Contact />

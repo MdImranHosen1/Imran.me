@@ -3,16 +3,27 @@ export const skills = {
     {
       name: "Codeforces[Expart-1610]",
       Solved: 1250,
+      link: "https://codeforces.com/profile/md_imran_hosen19",
     },
-    { name: "InterviewBit", Solved: 250 },
+    {
+      name: "InterviewBit",
+      Solved: 260,
+      link: "https://www.interviewbit.com/profile/md-imran-hosen/",
+    },
     {
       name: "LeetCode",
       Solved: 150,
+      link: "https://leetcode.com/u/md_imran_hosen19/",
     },
-    { name: "Beecrowd", Solved: 120 },
+    {
+      name: "Beecrowd",
+      Solved: 80,
+      link: "https://judge.beecrowd.com/en/profile/345736",
+    },
     {
       name: "Codechef",
-      Solved: 25,
+      Solved: 30,
+      link: "https://www.codechef.com/users/md_imran_h0sen",
     },
     {
       name: "Other",

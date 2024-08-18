@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
 import { Container, Title } from "./common"
-
+import { FaExternalLinkAlt } from "react-icons/fa"
 import { skills } from "../data"
 
 import "./skill.css"
@@ -13,7 +13,7 @@ const Skill = () => {
   return (
     <div id="skill" className="skill-area">
       <Container>
-        <Title title="My Skills" />
+        <Title side="right" title="My Skills" />
         <div className="skills">
           <ul className="skill-nav">
             {skillsName.map(name => (
@@ -27,22 +27,23 @@ const Skill = () => {
             ))}
           </ul>
           <div className="skill">
-            {selectedSkills.map(({ name, percent, Solved, Rating }) => (
+            {selectedSkills.map(({ name, percent, Solved, link, Rating }) => (
               <div key={name} className="card">
-                <h4>{name}</h4>
-                {Rating ? (
-                  <p
-                    style={{
-                      background: Rating ? "blue" : "",
-                    }}
-                  >
-                    Rating: {Rating}
-                  </p>
-                ) : percent ? (
-                  <p>{percent}%</p>
-                ) : (
-                  <p>Solved: {Solved}</p>
-                )}
+                <h4>
+                  {name}{" "}
+                  {link && (
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={link}
+                      style={{ color: "white" }}
+                    >
+                      <FaExternalLinkAlt />
+                    </a>
+                  )}
+                </h4>
+
+                {percent ? <p>{percent}%</p> : <p>Solved: {Solved}</p>}
 
                 <div style={{ width: percent + "%" }} className="progress-ar" />
               </div>
