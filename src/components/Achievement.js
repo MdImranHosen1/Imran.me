@@ -22,7 +22,10 @@ const Achievement = () => {
                 ))}
               </div>
               <div className="achievement-info">
-                <h4>{achievement.name}</h4>
+                <h4 style={{ color: "#00cf5d" }}>{achievement.name}</h4>
+                <div style={{ color: "#00cf5d", fontWeight: "bold" }}>
+                  {achievement.arranged}
+                </div>
                 <p>{achievement.description}</p>
                 <p>Team: {achievement.team}</p>
               </div>
