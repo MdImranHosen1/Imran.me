@@ -6,7 +6,7 @@ import "./achievement.css"
 const Achievement = () => {
   return (
     <Container>
-      <div className="achievement-area">
+      <div id="achievement" className="achievement-area">
         <Title title="Achievements" />
         <div className="achievements-list">
           {achievements.map((achievement, index) => (
